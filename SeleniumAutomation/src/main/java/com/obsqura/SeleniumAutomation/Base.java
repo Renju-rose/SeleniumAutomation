@@ -41,7 +41,7 @@ public class Base {
    public void getPageSourceCommand()
     {
     	String actualPageSource=driver.getPageSource();
-    	if(actualPageSource.contains("amazon"))
+    	if(actualPageSource.contains("window.ue_ihb = (window.ue_ihb || window.ueinit"))
         {
         	System.out.println("Pagesource are equal");
         }
