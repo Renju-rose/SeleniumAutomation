@@ -64,7 +64,7 @@ public class Base {
     	driver.quit();
     }
 	
-	public static void main(String[] args) 
+	/*public static void main(String[] args) 
 	 {
 	  Base base=new Base();
 	  base.initializeBrowser(); 
@@ -73,9 +73,5 @@ public class Base {
 	  base.getPageSourceCommand();
 	  base.navigateCommands(); 
 	  base.afterTest();
-	  
-	  
-	  }
-	 
-
+	  }*/
 }
